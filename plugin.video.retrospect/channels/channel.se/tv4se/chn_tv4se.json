@@ -1,0 +1,26 @@
+{
+  "channels": [
+    {
+      "guid": "68E5476E-DC92-4312-9C57-29FCE428EF20",
+      "name": "TV4 Play",
+      "description": {
+        "en": "Contains the channels TV4, Sjuan and TV12. Here you can also search, list most viewed episodes, see categories, view live broadcasts and list programs by weekday.",
+        "sv": "Innehåller kanalerna TV4, Sjuan och TV12. Här kan du också söka, lista mest visade avsnitt, se kategorier, titta på livesändningar och lista program utifrån veckodag."
+      },
+      "icon": "tv4large.png",
+      "poster": "tv4poster.jpg",
+      "category": "National",
+      "channelcode": "tv4segroup",
+      "sortorder": 3,
+      "language": "se",
+      "fanart": "tv4playsefanart.jpg"
+    }
+  ],
+  "settings": [
+    {
+      "order": 1,
+      "id": "set_refresh_token",
+      "value": "id=\"set_refresh_token\" label=\"30113\" type=\"action\" action=\"RunScript(plugin.video.retrospect, 0, ?channel=channel.se.tv4se&amp;channelcode=tv4segroup&amp;action=execute&amp;command=fetch_token)\" option=\"close\""
+    }
+  ]
+}
